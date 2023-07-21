@@ -9,6 +9,6 @@ const pool = new sql.ConnectionPool(config)
   })
   .catch((err) => console.log("Database Connection Failed! Bad Config: ", err));
 
-console.log("test4");
+console.log("test5");
 
 module.exports = pool;
